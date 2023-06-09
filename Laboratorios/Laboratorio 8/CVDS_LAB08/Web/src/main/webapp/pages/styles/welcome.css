@@ -1,0 +1,36 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+  
+body {
+    background: linear-gradient(to bottom, #00bfff, #00fa9a);
+    font-family: Arial, sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+#name-form {
+    position: relative;
+    background: linear-gradient(to bottom, rgba(74, 155, 247, 0.8), rgba(101, 1, 114, 0.8));
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+    width: 400px;
+    height: 200px;
+
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+
+<h:head>
+    <link rel="stylesheet" type="text/css" href="styles/welcome.css"/>
+</h:head>
+
+<h:body>
+    <section>
+        <h:form id="name-form">
+            <h2>Principal Page of Guess Game</h2>
+            <p:inputText value="#{userBean.userName}" placeholder="Enter a your name..." required="true"/>
+            <p:commandButton value="Start Game" onclick="window.location.href='guess.xhtml'" actionListener="#{guessBean.setReward()}" />
+        </h:form>
+    </section>
+</h:body>
+</html>
