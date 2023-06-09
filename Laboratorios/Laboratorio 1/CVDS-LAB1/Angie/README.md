@@ -24,7 +24,7 @@
 A continuacion se presenta la evidencia de la realizacion del curso propuesto en [Learn Git Branch](https://learngitbranching.js.org/)
 * *Numero de carne:* 2172892
 
-![Parte 1](https://github.com/An6ie02/CVDS-LAB1/blob/main/Images/PrincipalGit.png)\
-![Parte 2](https://github.com/An6ie02/CVDS-LAB1/blob/main/Images/RemotoGit.png)\
-![Propiedades 1](https://github.com/An6ie02/CVDS-LAB1/blob/main/Images/PropertiesPhoto.png)\
-![Propiedades 2](https://github.com/An6ie02/CVDS-LAB1/blob/main/Images/PropertiesPhoto2.png)
+![Parte 1](../Images/PrincipalGit.png)\
+![Parte 2](../Images/RemotoGit.png)\
+![Propiedades 1](../Images/PropertiesPhoto.png)\
+![Propiedades 2](../Images/PropertiesPhoto2.png)

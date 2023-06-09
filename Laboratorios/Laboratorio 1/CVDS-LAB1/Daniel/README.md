@@ -25,9 +25,9 @@
 
 Evidencia del curso realizado en [Learn Git Branching](https://learngitbranching.js.org/?locale=es_AR)
 
-![GitPrincipal](https://github.com/An6ie02/CVDS-LAB1/blob/main/Images/GitPrincipal.png)\
-![GitRemote](https://github.com/An6ie02/CVDS-LAB1/blob/main/Images/GitRemoto.png)\
-![PropietiesPrincipal](https://github.com/An6ie02/CVDS-LAB1/blob/main/Images/PropietiesGitPrincipal.png)\
-![PropietiesRemote](https://github.com/An6ie02/CVDS-LAB1/blob/main/Images/PropietiesGitRemoto.png)
+![GitPrincipal](../Images/GitPrincipal.png)\
+![GitRemote](../Images/GitRemoto.png)\
+![PropietiesPrincipal](../Images/PropietiesGitPrincipal.png)\
+![PropietiesRemote](../Images/PropietiesGitRemoto.png)
 
 [1]:https://www.escuelaing.edu.co/es/la-escuela/simbolos-institucionales-de-la-escuela-colombiana-de-ingenieria-julio-garavito/ "Simbolo Institucional"
