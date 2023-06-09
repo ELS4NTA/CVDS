@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3c.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+  <h:head>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </h:head>
+  <h:body>
+    <section>
+      <h:form id="guess_form">
+        <div class="game">
+          <h2>Guess Bean</h2>
+          <p:outputLabel value="#{guessBean.getNumber()}" style="display: none;"></p:outputLabel>
+          <div class="input-container">
+            <p:inputText class="input-text" binding="#{input}" placeholder="Enter a number..."></p:inputText>
+          </div>
+          <div class="game-buttons-container">
+            <p:commandButton value="Guess" update="guess_form" actionListener="#{guessBean.guess(input.value)}"></p:commandButton>
+            <p:commandButton value="Restart" update="guess_form" actionListener="#{guessBean.restart()}"></p:commandButton>
+          </div>
+          <div class="status-container">
+            <p:outputLabel value="Attempts: #{guessBean.getAttempts()}" styleClass="attempts-label"></p:outputLabel>
+            <p:outputLabel value="Game Status: #{guessBean.getGameStatus()}" styleClass="game-status-label"></p:outputLabel>
+            <p:outputLabel value="Accumulated prize: $#{guessBean.getAccumPrize()}" styleClass="prize-label"></p:outputLabel>
+          </div>
+        </div>
+        <div class="last-attempts-table">
+          <p:dataTable value="#{guessBean.getLastAttempts()}" var="attempt">
+            <p:column headerText="Attempts">
+                <h:outputText value="#{attempt}" />
+            </p:column>
+          </p:dataTable>
+        </div>
+      </h:form>
+    </section>
+  </h:body>
+</html>

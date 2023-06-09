@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+    <title>Start Page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form method="GET" action="http://localhost:8080/AngieDanielServlet">
+        <label for="id">Ingresa el numero de ID:</label>
+        <input type="number" id="id" name="id" required>
+        <button type="submit" onclick="myFunction()">Enviar</button>
+    </form>
+    <script>
+        function myFunction() {
+            var id = document.getElementById("id").value;
+            if (isNaN(id)) {
+                alert("El valor ingresado no es un numero");
+            }
+        }
+    </script>
+</body>
+</html>
